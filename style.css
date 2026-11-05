@@ -1,0 +1,151 @@
+body {
+    background-color: #120e1a;
+    color: #e9d5ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #c084fc;
+    font-size: 42px;
+    text-align: center;
+}
+
+h2 {
+    color: #d8b4fe;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #e9d5ff;
+}
+
+a {
+    color: #c084fc;
+}
+
+nav {
+    background-color: #1e162d;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    border: 2px solid #581c87;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: #e9d5ff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #7e22ce;
+    color: #ffffff;
+}
+
+.contenu {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.important {
+    font-weight: bold;
+    font-size: 28px;
+    color: #c084fc;
+    text-align: center;
+}
+
+.presentation {
+    background-color: #1e162d;
+    border: 2px solid #581c87;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.attention {
+    background-color: #1e162d;
+    font-weight: bold;
+    border: 2px solid #dc2626;
+    border-radius: 12px;
+    padding: 20px;
+    color: #fca5a5;
+    text-align: center;
+}
+
+.presentation-flex {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background-color: #1e162d;
+    border: 2px solid #581c87;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.photo-presentation {
+    width: 250px;
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+.texte-presentation {
+    color: #e9d5ff;
+}
+
+.cartes {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.carte {
+    flex: 1;
+    background-color: #1e162d;
+    border: 2px solid #581c87;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: left;
+}
+
+.carte img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.logo-jeu {
+    width: 320px;
+    max-width: 100%;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+.bouton-discord {
+    display: inline-block;
+    background-color: #5865F2;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bouton-discord:hover {
+    background-color: #4752C4;
+    color: #ffffff;
+}
